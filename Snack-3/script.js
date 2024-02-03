@@ -5,7 +5,6 @@
 
 const oddNumberElement = [];
 
-console.log(oddNumberElement)
 for (let i = 0; i < 6; i++) {
     let number = Number(prompt("Inserisci un numero"));
 
