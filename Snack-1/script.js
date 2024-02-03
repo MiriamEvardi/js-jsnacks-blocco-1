@@ -12,8 +12,8 @@ if (firstWord.length < secondWord.length) {
 
 } else if (firstWord.length > secondWord.length) {
 
-    document.getElementById("longer").innerText = "La parola più lunga è: " + secondWord;
-    document.getElementById("weaker").innerText = "La parola più corta è: " + firstWord;
+    document.getElementById("longer").innerText = "La parola più lunga è: " + firstWord;
+    document.getElementById("weaker").innerText = "La parola più corta è: " + secondWord;
 
 } else {
     document.getElementById("weaker").innerText = `Le parole ${firstWord} e ${secondWord} hanno la stessa lunghezza`;
